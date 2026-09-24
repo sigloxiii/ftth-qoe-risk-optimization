@@ -18,7 +18,7 @@
 ### 🎯 Business Task
 FTTH (Fiber to the Home) operators face silent subscriber churn caused by unmonitored service degradation during peak usage hours (19:00 - 23:00). Concurrently, unnecessary field technician dispatches (*truck rolls*) generate high OPEX ($120–$150 USD direct cost per dispatch as a conservative estimate; industry benchmarks range from $150 to >$1,000 fully-loaded per TSIA/OSP).
 
-**Objective:** Quantify subscriber risk through a technical proxy (`risk_flag`) based on network telemetry and model operational savings to shift NOC operations from reactive support to proactive QoE optimization.
+**Objective:** Quantify subscriber risk through a technical proxy that will be named (`risk_flag`) based on network telemetry and model operational savings to shift NOC(Network Operations Center) operations from reactive support to proactive QoE optimization.
 
 ---
 
@@ -41,7 +41,7 @@ FTTH (Fiber to the Home) operators face silent subscriber churn caused by unmoni
 
 | Phase | Description & Execution |
 | :--- | :--- |
-| **1. Ask** | Defined business rules and engineered the technical proxy `risk_flag`: <br>$$\text{risk\_flag} = (\text{P95 Latency} > 80\text{ms}) \lor (\text{Packet Loss} > 1.5\%\text{ during peak hours})$$ |
+| **1. Ask** | Defined business rules and engineered the technical proxy named `risk_flag`: <br>$$\text{risk\_flag} = (\text{P95 Latency} > 80\text{ms}) \lor (\text{Packet Loss} > 1.5\%\text{ during peak hours})$$ |
 | **2. Prepare** | Ingested multi-million time-series logs from the FCC MBA platform; filtered for FTTH units and normalized timestamps. |
 | **3. Process** | Computed 95th percentile ($P_{95}$) RTT latency, handled missing packet counts, and flagged peak window (19:00 - 23:00). |
 | **4. Analyze** | Evaluated degradation clusters and modeled financial ROI: <br>$$\text{Potential Savings} = \text{At-Risk Customers} \times \text{Expected Retention Rate} \times \text{Truck Roll Cost}$$ |
@@ -68,7 +68,7 @@ FTTH (Fiber to the Home) operators face silent subscriber churn caused by unmoni
 ### 🎯 Problema de Negocio
 Las operadoras de fibra óptica hasta el hogar (FTTH) pierden clientes por degradación silenciosa del servicio en horas pico (19:00 - 23:00) y sufren altos costos operativos por despachos técnicos en sitio (*truck rolls* de $120–$150 USD costo directo, con promedios de la industria entre $150 y >$1,000 USD fully-loaded según estudios de TSIA/OSP).
 
-**Objetivo:** Cuantificar el volumen de usuarios en riesgo mediante una variable proxy técnica (`risk_flag`) construida con telemetría de red y modelar el ahorro operativo para migrar el NOC de un soporte reactivo a uno preventivo.
+**Objetivo:** Cuantificar el volumen de usuarios en riesgo mediante una variable proxy técnica (`risk_flag`) construida con telemetría de red y modelar el ahorro operativo para migrar el (Centro de Operaciones de Red) NOC de un soporte reactivo a uno preventivo.
 
 ---
 
