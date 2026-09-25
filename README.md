@@ -94,3 +94,8 @@ Las operadoras de fibra óptica hasta el hogar (FTTH) pierden clientes por degra
 ├── dashboards/        # Archivos de Tableau / Power BI y capturas
 ├── README.md          # Documentación principal del proyecto
 └── LICENSE            # Licencia MIT
+
+
+## Evidence - Prepare Phase
+Excel filter Technology contains Fiber (285 units)
+![Excel filter evidence](docs/excel_filter.png)
