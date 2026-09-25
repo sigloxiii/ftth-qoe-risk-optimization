@@ -7,6 +7,7 @@
 [![Tableau](https://img.shields.io/badge/Tableau-Public_Dashboard-orange.svg)](#5-share--visualizations)
 
 ---
+September 2026 - Ing. Rafael Cansigno
 
 ### 🌐 Overview / Descripción General
 * **Project Type:** Google Data Analytics Capstone | **Track B (Self-directed Project)**
