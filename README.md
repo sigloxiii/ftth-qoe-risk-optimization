@@ -25,7 +25,7 @@ FTTH (Fiber to the Home) operators face silent subscriber churn caused by unmoni
 ---
 
 ### 🛠️ Tech Stack & Skills
-* **Data Processing & Analysis:** Python (`Pandas`, `NumPy`, `Polars`), SQL
+* **Data Processing & Analysis:** Python (`Pandas`, `NumPy`), SQL, Excel
 * **Data Visualization:** Tableau Public
 * **Domain Knowledge:** FTTH / GPON, QoS/QoE Metrics, Time-Series, SLA Compliance
 
