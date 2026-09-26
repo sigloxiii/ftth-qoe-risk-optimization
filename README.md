@@ -51,10 +51,10 @@ FTTH (Fiber to the Home) operators face silent subscriber churn caused by unmoni
 ---
 
 ### 📁 Repository Structure
-├── data/ # Data dictionary and reproduction steps
-├── notebooks/ # 01_ingest, 02_process_p95, 03_analyze_risk
-├── sql/ # Aggregation and P95 queries
-├── dashboards/ # Tableau .twbx files and screenshots
-├── docs/ # Detailed methodology and evidence
+```bash
+├── data/              # Data dictionary and reproduction steps
+├── notebooks/         # 01_ingest, 02_process_p95, 03_analyze_risk
+├── sql/               # Aggregation and P95 queries
+├── dashboards/        # Tableau .twbx files and screenshots
+├── docs/              # Detailed methodology and evidence
 └── README.md
-
