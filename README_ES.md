@@ -25,7 +25,7 @@ Las operadoras de fibra óptica al hogar (FTTH) sufren churn silencioso causado 
 ---
 
 ### 🛠️ Stack Tecnológico y Habilidades
-* **Procesamiento y Análisis de Datos:** Python (`Pandas`, `NumPy`, `Polars`), SQL
+* **Procesamiento y Análisis de Datos:** Python (`Pandas`, `NumPy`), SQL, Excel
 * **Visualización de Datos:** Tableau Public
 * **Conocimiento de Dominio:** Arquitectura FTTH / GPON, Métricas QoS/QoE, Análisis de Series de Tiempo, Cumplimiento de SLA
 
